@@ -22,6 +22,19 @@ I was responsible for creating a model that will predict nonprofit funding succe
 #Results
 
 1. Data Processing:
-- Dataframe was loaded and dropped 'EIN' & 'NAME' columns for non-feature and target values
+- THe variable that is the target for our model is the "IS_SUCCESSFUL" column
+- Variables that include the features for our model is all columns except IS_SUCCESSFUl while dropping 'EIN' & 'NAME' columns for non-feature and target values
 <img width="630" alt="Screenshot 2022-12-20 at 5 02 37 PM" src="https://user-images.githubusercontent.com/108318921/208796108-659f471e-6de5-41e0-b9b3-923425af719a.png">
+<img width="628" alt="Screenshot 2022-12-20 at 5 21 28 PM" src="https://user-images.githubusercontent.com/108318921/208798193-3e7a0e37-370c-4f21-b663-af853d3bbafb.png">
+
+2. Compiling, Training & Evaluating the Model
+My first model consisted of the following neuron, layers and activation function parameters:
+  - The first hidden node layer consisted of 8 units and the second total value of the x_trained_scaled shape for input_dim, and 'relu' as the the activation function. It brought the toal Param # to 156,904
+  - The second hidden node layer consisted of 4 units with activation of the 'sigmoid' function with a Param # total of 36
+  - The output node layer was set to 1 due to being a binary classifier model of whether it was yes or no for an applicant. I then set the output activation to 'sigmoid' function'
+  <img width="1115" alt="Screenshot 2022-12-20 at 5 37 26 PM" src="https://user-images.githubusercontent.com/108318921/208800020-81031f7f-9c70-4cc8-b52c-a58130a12f4c.png">
+  - After compiling the model with 'adam' optimizer and trained the model with 100 epochs, it evaulated the model to have a best of 0.72 accuracy and .58 Loss
+<img width="1125" alt="Screenshot 2022-12-20 at 5 37 42 PM" src="https://user-images.githubusercontent.com/108318921/208800059-1ccc83b5-2511-439c-8603-49aa06f64169.png">
+
+
 
