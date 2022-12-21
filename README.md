@@ -13,8 +13,15 @@ I was responsible for creating a model that will predict nonprofit funding succe
 - CLASSIFICATION—Government organization classification
 - USE_CASE—Use case for funding
 - ORGANIZATION—Organization type
-- - STATUS—Active status
+- STATUS—Active status
 - INCOME_AMT—Income classification
 - SPECIAL_CONSIDERATIONS—Special considerations for application
 - ASK_AMT—Funding amount requested
 - IS_SUCCESSFUL—Was the money used effectively
+
+#Results
+
+1. Data Processing:
+- Dataframe was loaded and dropped 'EIN' & 'NAME' columns for non-feature and target values
+<img width="630" alt="Screenshot 2022-12-20 at 5 02 37 PM" src="https://user-images.githubusercontent.com/108318921/208796108-659f471e-6de5-41e0-b9b3-923425af719a.png">
+
