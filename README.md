@@ -19,7 +19,7 @@ I was responsible for creating a model that will predict nonprofit funding succe
 - ASK_AMT—Funding amount requested
 - IS_SUCCESSFUL—Was the money used effectively
 
-#Results
+# Results
 
 1. Data Processing:
 - THe variable that is the target for our model is the "IS_SUCCESSFUL" column
