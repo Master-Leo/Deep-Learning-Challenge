@@ -55,6 +55,7 @@ My first model consisted of the following neuron, layers and activation function
 
   - THe final optimized model selected an accuracy score of .798 and .668 loss 
  
- <img width="1075" alt="Screenshot 2022-12-21 at 9 28 24 PM" src="https://user-images.githubusercontent.com/108318921/209063644-f7bfbb92-d86e-4b48-a279-1d46bef5c72c.png">
+<img width="696" alt="Screenshot 2022-12-21 at 9 30 26 PM" src="https://user-images.githubusercontent.com/108318921/209063863-b8d3b3b6-84f9-44a8-a687-ae0580fbf53c.png">
+
  
  # Summary: 
