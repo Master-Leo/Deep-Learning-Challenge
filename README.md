@@ -25,7 +25,7 @@ I was responsible for creating a model that will predict nonprofit funding succe
 - The variable that is the target for our model is the "IS_SUCCESSFUL" column
 - Variables that include the features for our model is all columns except IS_SUCCESSFUl while dropping 'EIN' & 'NAME' columns for non-feature and target values
 <img width="630" alt="Screenshot 2022-12-20 at 5 02 37 PM" src="https://user-images.githubusercontent.com/108318921/208796108-659f471e-6de5-41e0-b9b3-923425af719a.png">
-<img width="628" alt="Screenshot 2022-12-20 at 5 21 28 PM" src="https://user-images.githubusercontent.com/108318921/208798193-3e7a0e37-370c-4f21-b663-af853d3bbafb.png">
+<img width="586" alt="Screenshot 2022-12-21 at 9 31 37 PM" src="https://user-images.githubusercontent.com/108318921/209064004-ca940f6e-9710-454c-96cf-3a3d96d35c29.png">
 
 2. Compiling, Training & Evaluating the Model
 My first model consisted of the following neuron, layers and activation function parameters:
