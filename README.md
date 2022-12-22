@@ -36,9 +36,25 @@ My first model consisted of the following neuron, layers and activation function
 
 <img width="1115" alt="Screenshot 2022-12-20 at 5 37 26 PM" src="https://user-images.githubusercontent.com/108318921/208800020-81031f7f-9c70-4cc8-b52c-a58130a12f4c.png">
 
-  - After compiling the model with 'adam' optimizer and trained the model with 100 epochs, it evaulated the model to have a best of 0.72 accuracy and .58 Loss
+  - After compiling the model with 'adam' optimizer and trained the model with 100 epochs, it evaulated the model to have a best of 0.759 accuracy and .59 Loss
 
 <img width="1125" alt="Screenshot 2022-12-20 at 5 37 42 PM" src="https://user-images.githubusercontent.com/108318921/208800059-1ccc83b5-2511-439c-8603-49aa06f64169.png">
 
+3. Optimize the Model
+  - First step into optimizing the model to get the best possible accurate model was implementing a method function that creates Keras sequential model through keras-tuner that loops through a range of input node layers and activation for the hyperparamters 
 
+<img width="946" alt="Screenshot 2022-12-21 at 9 23 12 PM" src="https://user-images.githubusercontent.com/108318921/209063013-3486e561-b43c-4ad7-8995-bd37719c0dd6.png">
 
+  - Next was importing the keras-tuner library and setting a hyperband that will repeat 20 epochs trial for each activation parameter and run the kerastuner search
+ 
+ <img width="1076" alt="Screenshot 2022-12-21 at 9 25 34 PM" src="https://user-images.githubusercontent.com/108318921/209063283-5dc30911-57ec-4869-8b38-1b5d69790f99.png">
+
+  - This process took about an hour to automatically retrieve the best accurate model out of every hyperparameter. Ultimately, selecting sigmoid as the best activatio nand 4 layers and a units ranging from 1-9 for 20 epochs.
+
+<img width="1073" alt="Screenshot 2022-12-21 at 9 27 42 PM" src="https://user-images.githubusercontent.com/108318921/209063544-4ae1c5b7-67d7-4e99-bc53-5728c12d2286.png">
+
+  - THe final optimized model selected an accuracy score of .798 and .668 loss 
+ 
+ <img width="1075" alt="Screenshot 2022-12-21 at 9 28 24 PM" src="https://user-images.githubusercontent.com/108318921/209063644-f7bfbb92-d86e-4b48-a279-1d46bef5c72c.png">
+ 
+ # Summary: 
