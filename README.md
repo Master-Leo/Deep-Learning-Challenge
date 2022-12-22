@@ -30,7 +30,7 @@ I was responsible for creating a model that will predict nonprofit funding succe
 2. Compiling, Training & Evaluating the Model
 My first model consisted of the following neuron, layers and activation function parameters:
 
-  - The first hidden node layer consisted of 8 units and the second total value of the x_trained_scaled shape for input_dim, and 'relu' as the the activation function. It brought the toal Param # to 156,904
+  - The first hidden node layer consisted of 8 units and the second total value of the x_trained_scaled shape for input_dim, and 'relu' as the the activation function. It brought the total Param # to 156,904
   - The second hidden node layer consisted of 4 units with activation of the 'sigmoid' function with a Param # total of 36
   - The output node layer was set to 1 due to being a binary classifier model of whether it was yes or no for an applicant. I then set the output activation to 'sigmoid' function'
 
